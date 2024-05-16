@@ -1,0 +1,49 @@
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color:cornflowerblue;
+    padding: 30px;
+}
+.formulario h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: sandybrown;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario form label{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:sandybrown;
+}
+
+.formulario form input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.formulario button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    background-color: antiquewhite;
+}
+.formulario p{
+    font-size: 20px;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
