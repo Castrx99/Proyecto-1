@@ -154,6 +154,9 @@ if(confirmacion){
 
 nombre=prompt("Escribe tu nombre")
 
+let imagen=documen.querySelector("#imagen")
+imagen.src="../img/paisaje-og.webp";
+
 
 
 
