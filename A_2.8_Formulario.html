@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/styleActividad2.8.css">
+    <link rel="stylesheet" href="CSS/styleActividad2.8_Formulario.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,17 +12,16 @@
         <h1>Ingrese los siguientes datos</h1>
         <form action="form">
             <label for="name">Nombre</label>
-            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" pattern="[A-Z]" required>
             <label for="years">Edad</label>
             <input type="number" id="edad" placeholder="Ingresa tu edad">
         </form>
-        <button class="boton">Enviar</button>
+        <div>
+            <button class="boton">Enviar</button>
+        </div>
         <p class="mensaje"></p>
+        <p class="mensajeError"></p>
     </div>
-    
-    
-
-
-    <script src="Actividad_2.8.js"></script>
+    <script src="SCRIPT/Actividad_2.8_Formulario.js"></script>
 </body>
 </html>
